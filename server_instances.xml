@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="00000142F069E530" type="list" content-type="object" content-struct-name="db.mgmt.ServerInstance">
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="{FE150291-8300-4F67-A1EC-9D990721FC6E}" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">{758BF639-9A3C-49ED-B5D7-4E930B038C9B}</link>
+      <value _ptr_="00000142F0B05960" type="dict" key="loginInfo">
+        <value type="string" key="ssh.hostName">sql.freedb.tech</value>
+        <value type="string" key="ssh.userName">H</value>
+      </value>
+      <value _ptr_="00000142F0B08000" type="dict" key="serverInfo">
+        <value type="int" key="remoteAdmin">1</value>
+        <value type="string" key="serverVersion">8.0.34-0ubuntu0.22.04.1</value>
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.sudo"></value>
+        <value type="int" key="sys.usesudo">0</value>
+        <value type="int" key="sys.usesudostatus">0</value>
+      </value>
+      <value type="string" key="name">FSD-09</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="{52A3DBA9-51A6-4B7F-AB98-47F8F3391DA6}" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">{788D50C6-D0B5-4979-95FE-CB80C0C6A32A}</link>
+      <value _ptr_="00000142F0B080C0" type="dict" key="loginInfo"/>
+      <value _ptr_="00000142F0B08480" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.sudo"></value>
+      </value>
+      <value type="string" key="name">Project FSD09 Database</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="{69D9D121-D5A2-4F60-815E-E77092BF7835}" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">{CAB790C4-87FF-4037-AE0E-3D23345ABC93}</link>
+      <value _ptr_="00000142F0B090E0" type="dict" key="loginInfo">
+        <value type="string" key="wmi.hostName"></value>
+        <value type="string" key="wmi.userName"></value>
+      </value>
+      <value _ptr_="00000142F0B09140" type="dict" key="serverInfo">
+        <value type="string" key="basedir">C:\Program Files\MySQL\MySQL Server 8.0\</value>
+        <value type="string" key="datadir">C:\ProgramData\MySQL\MySQL Server 8.0\Data\</value>
+        <value type="string" key="errorLogFilePath">MODERN.err</value>
+        <value type="string" key="generalLogFilePath">MODERN.log</value>
+        <value type="string" key="serverVersion">8.0.34</value>
+        <value type="int" key="setupPending">0</value>
+        <value type="int" key="slowLogEnabled">1</value>
+        <value type="string" key="slowLogFilePath">MODERN-slow.log</value>
+        <value type="string" key="sys.config.path">C:\ProgramData\MySQL\MySQL Server 8.1\my.ini</value>
+        <value type="int" key="sys.config.path.lock">1</value>
+        <value type="string" key="sys.config.section">mysqld</value>
+        <value type="string" key="sys.mysqld.service_name">MySQL81</value>
+        <value type="string" key="sys.preset">Custom</value>
+        <value type="string" key="sys.sudo"></value>
+        <value type="string" key="sys.system">Windows</value>
+        <value type="int" key="sys.usesudo">0</value>
+        <value type="int" key="sys.usesudostatus">0</value>
+        <value type="int" key="windowsAdmin">1</value>
+      </value>
+      <value type="string" key="name">local fsd09</value>
+    </value>
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="{4DA7DA0D-6B47-464C-AEC7-63C8311CA89B}" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">{EED4302D-5544-43D2-A5EC-CEBF32F21B1C}</link>
+      <value _ptr_="00000142F0B084E0" type="dict" key="loginInfo"/>
+      <value _ptr_="00000142F0B08600" type="dict" key="serverInfo">
+        <value type="string" key="serverVersion">8.0.34-0ubuntu0.22.04.1</value>
+        <value type="int" key="setupPending">0</value>
+        <value type="string" key="sys.sudo"></value>
+      </value>
+      <value type="string" key="name">FSD09-WebServices</value>
+    </value>
+  </value>
+</data>
